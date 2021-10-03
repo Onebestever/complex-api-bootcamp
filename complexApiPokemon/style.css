@@ -1,0 +1,50 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body{
+    background-image: url('catchEmAll.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size:45px;
+  padding:0;
+  margin-bottom:2%;
+  color: orange;
+}
+.inputs{
+position: relative;
+margin-top: 100px;
+
+}
+input{
+  font-family: 'Roboto Mono', monospace;
+  width:9.5%;
+  padding:.5%;
+  margin:.2%;
+  border-radius: 8px;
+  border: none;
+  background-color: yellow;
+  text-align: center;
+}
+
+#submit{
+  background-color: orange;
+  color: white;
+  margin-left: 1%;
+}
+
